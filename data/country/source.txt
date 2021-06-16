@@ -1,0 +1,3 @@
+https://databank.worldbank.org/source/population-estimates-and-projections
+https://www.eia.gov/international/data/world
+https://www.oecd-nea.org/jcms/pl_15004

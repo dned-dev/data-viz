@@ -1,0 +1,64 @@
+/*
+*{
+    box-sizing: border-box;
+}
+
+*/
+
+body{
+    padding: 0px;
+    margin:0px;
+    font-family:lato, Georgia;
+    background: #f6f6f6;    
+}
+
+
+#sideBar{    
+    order:0;
+    margin: 0px;
+    padding-top: 20px;
+    background: #002A3F ;
+    padding-bottom: 60px;
+        
+}
+#sideBar >* {
+
+    padding: 0px;
+            
+}
+#sideBar p{
+    color:whitesmoke;
+    text-align: center;
+}
+
+#visuals-menu{
+    display: flex;
+    flex-direction:column ;         
+
+}
+#visuals-menu i{
+  padding-right: 5px;
+}
+
+.menu-item {
+  color:whitesmoke;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 20em;
+  height: 6em;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: #006393;
+}
+
+.selected{
+    background: #003E5C;
+    color: gold;    
+}
